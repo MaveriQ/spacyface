@@ -239,7 +239,7 @@ def MakeAligner(pretrained_tokenizer, spacy_language_model):
 
     return Aligner
 
-english = "en_core_web_sm"
+english = "en_core_web_lg"
 
 BertAligner = MakeAligner(BertTokenizer, english)
 GPT2Aligner = MakeAligner(GPT2Tokenizer, english)
